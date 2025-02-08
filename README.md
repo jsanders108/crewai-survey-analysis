@@ -88,7 +88,7 @@ For complete details, see the full report in `crypto-survey-final-report.md`.
 
 ## Conclusion
 
-This project illustrates how CrewAI can automate and enhance qualitative data analysis, turning raw survey responses into insightful, actionable reports. The structured two-agent review process ensures high-quality outputs, making this approach ideal for research applications requiring accuracy and professional presentation.
+This project illustrates how CrewAI can automate and enhance quantitative data analysis, turning raw survey responses into insightful, actionable reports. The structured two-agent review process ensures high-quality outputs, making this approach ideal for research applications requiring accuracy and professional presentation.
 
 By combining:
 
