@@ -49,7 +49,7 @@ The analysis and report generation were powered by **GPT-o3-mini**, which enable
   - `config/tasks.yaml`: Outlines tasks such as data analysis and report review.
 
 - **Source Code:**
-  - `crew.py`: Assembles the CrewAI agents and tasks into a sequential workflow.
+  - `report_generation_crew.py`: Assembles the CrewAI agents and tasks into a sequential workflow.
   - `main.py`: The entry point that loads survey data, processes it, and generates the final report.
 
 ## Implementation Summary
@@ -63,7 +63,7 @@ CrewAI’s modular "flows" framework drove this project through several steps:
      - Generate a structured report covering an executive summary, methodology, findings, and recommendations.
 
 2. **Crew Assembly and Execution:**
-   - The agents and tasks were integrated in `crew.py` to form a crew that operated sequentially.
+   - The agents and tasks were integrated in `report_generation_crew.py` to form a crew that operated sequentially.
    - The process was initiated in `main.py`, which read the CSV survey data, processed it, and kicked off the CrewAI workflow.
 
 ## Report Highlights
